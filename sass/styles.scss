@@ -1,0 +1,27 @@
+%common-list-menu{
+      list-style: none;
+    display: flex;
+    justify-content:space-between;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.header__desktop{
+    display: none;
+}
+.header__mobile{
+    @extend %common-list-menu;
+    background-color: #15FFBC;
+}
+.menu__hamburguesa{
+    margin: 10px;
+}
+.home__mobile{
+    margin: 20px;
+    font-weight: 900;
+}
