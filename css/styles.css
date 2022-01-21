@@ -12,14 +12,11 @@
 
 body {
   font-family: sans-serif;
+  background-color: #15FFBC;
 }
 
 .header__desktop {
   display: none;
-}
-
-.header__mobile {
-  background-color: #15FFBC;
 }
 
 .menu__hamburguesa {
