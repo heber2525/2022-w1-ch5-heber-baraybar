@@ -115,8 +115,28 @@ footer {
 }
 
 @media (min-width: 600px) {
-  .menu-desktop {
-    display: block;
+  .header__menu {
+    display: none;
+  }
+
+  .header__desk {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .header__desk div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__desk div li {
+    margin: 20px;
+  }
+  .header__desk li {
+    list-style: none;
+  }
+  .header__desk li a {
+    text-decoration: none;
+    color: black;
   }
 }
 
