@@ -1,7 +1,6 @@
-.header__mobile {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
+.pictures__body {
+  width: 100%;
+  height: auto;
 }
 
 * {
@@ -15,17 +14,81 @@ body {
   background-color: #15FFBC;
 }
 
-.header__desktop {
-  display: none;
+.header {
+  height: 150px;
 }
 
-.menu__hamburguesa {
+.header__menu {
   margin: 10px;
 }
 
-.home__mobile {
-  margin: 20px;
-  font-weight: 900;
+.--header-menu-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu__home {
+  text-decoration: none;
+}
+
+.pictures__body {
+  margin-top: 50px;
+}
+
+.text-and-pic {
+  text-align: center;
+}
+
+.--pictures__body--text {
+  text-align: center;
+  margin-top: 20px;
+  margin: 30px;
+}
+
+.pictures__main {
+  margin-bottom: 50px;
+}
+
+.virgulilla {
+  width: 50px;
+  margin: 30px;
+}
+
+.x {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+}
+
+.footer__social-media img {
+  width: 2rem;
+  margin: 0.2rem;
+}
+
+.--footer-first-text {
+  color: #15FFBC;
+  padding-top: 20px;
+}
+
+.--nav__footer--menu {
+  color: white;
+}
+
+.nav__footer {
+  margin-top: 30px;
+}
+
+.nav__footer li {
+  margin: 0.5rem;
+}
+
+.nav__footer a {
+  text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
