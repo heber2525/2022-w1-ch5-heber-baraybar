@@ -1,22 +1,94 @@
-/* Error: From line 1, column 1 of sass\styles.scss: 
- *   ╷
- * 1 │ %common-list-menu{
- *   │ ^^^^^^^^^^^^^^^^^
- *   ╵
- * You may not @extend selectors across media queries.
- *    ,
- * 23 |     @extend %common-list-menu;
- *    |     ^^^^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   sass\styles.scss 23:5  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: From line 1, column 1 of sass\\styles.scss: \a   \2577 \a 1 \2502  %common-list-menu{\d\a   \2502  ^^^^^^^^^^^^^^^^^\a   \2575 \aYou may not @extend selectors across media queries.\a    \2577 \a 23 \2502      @extend %common-list-menu;\d\a    \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   sass\\styles.scss 23:5  root stylesheet";
+.pictures__body {
+  width: 100%;
+  height: auto;
 }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #15FFBC;
+}
+
+.header {
+  height: 150px;
+}
+
+.header__menu {
+  margin: 10px;
+}
+
+.--header-menu-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu__home {
+  text-decoration: none;
+}
+
+.pictures__body {
+  margin-top: 50px;
+}
+
+.text-and-pic {
+  text-align: center;
+}
+
+.--pictures__body--text {
+  text-align: center;
+  margin-top: 20px;
+  margin: 30px;
+}
+
+.pictures__main {
+  margin-bottom: 50px;
+}
+
+.virgulilla {
+  width: 50px;
+  margin: 30px;
+}
+
+.x {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+}
+
+.footer__social-media img {
+  width: 2rem;
+  margin: 0.2rem;
+}
+
+.--footer-first-text {
+  color: #15FFBC;
+  padding-top: 20px;
+}
+
+.--nav__footer--menu {
+  color: white;
+}
+
+.nav__footer {
+  margin-top: 30px;
+}
+
+.nav__footer li {
+  margin: 0.5rem;
+}
+
+.nav__footer a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
