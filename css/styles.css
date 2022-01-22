@@ -43,6 +43,7 @@ h1 {
 .menu__home {
   text-decoration: none;
   font-size: 1.2rem;
+  color: black;
 }
 
 .pictures__body {
@@ -180,6 +181,13 @@ footer {
   .cross__world {
     text-decoration: line-through;
   }
+}
+.header__menu-desktop {
+  display: none;
+}
+
+.pictures__mobile img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

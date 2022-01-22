@@ -39,6 +39,7 @@ h1{
 .menu__home{
     text-decoration: none;
     font-size: 1.2rem;
+    color: black;
 }
 .pictures__body{
     @extend %body-pictures;
@@ -160,4 +161,13 @@ footer{
        text-decoration: line-through;
    }   
    
+}
+
+//**************** From here works.html**************************//
+
+.header__menu-desktop{
+    display: none;
+}
+.pictures__mobile img{
+    width: 100%;
 }
