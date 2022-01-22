@@ -190,4 +190,15 @@ footer {
   width: 100%;
 }
 
+@media (min-width: 600px) {
+  .header__menu-desktop {
+    display: flex;
+  }
+
+  .pictures__mobile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
