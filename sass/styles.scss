@@ -13,8 +13,14 @@
     margin: 0;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
     background-color: #15FFBC;
+}
+h1{
+    display: none;
+}
+.menu__desktop{
+    display: none;
 }
 .header{
     height: 150px;
@@ -29,6 +35,7 @@ body{
 }
 .menu__home{
     text-decoration: none;
+    font-size: 1.2rem;
 }
 .pictures__body{
     @extend %body-pictures;
@@ -76,4 +83,22 @@ footer{
 .nav__footer a{
     text-decoration: none;
     color: white;
+}
+.footer__text{
+    margin-top: 1rem;
+   h2{
+       color: white;
+       font-size: 1.2rem;
+       margin:20px;
+   }
+   p{
+       color: #15FFBC;
+       margin-top: 5px;
+       font-size: 1rem;
+   }
+}
+@media(min-width: 600px){
+    .menu-desktop{
+        display: block;
+    }
 }
