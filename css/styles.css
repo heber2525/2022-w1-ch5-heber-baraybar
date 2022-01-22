@@ -195,9 +195,8 @@ footer {
     display: flex;
   }
 
-  .pictures__mobile {
-    display: flex;
-    flex-wrap: wrap;
+  .pictures-wrap {
+    display: inline-block;
   }
 }
 
