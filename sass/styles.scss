@@ -15,7 +15,11 @@ body{
 .header__desktop{
     display: none;
 }
-.header__mobile{
+
+
+@media(min-width: 600px) {
+
+    .header__mobile{
     @extend %common-list-menu;
     
 }
@@ -23,6 +27,13 @@ body{
     margin: 10px;
 }
 .home__mobile{
-    margin: 20px;
+    
     font-weight: 900;
+}
+footer{
+    background-color: black;
+}
+.mobile_picture > img{
+    width: 100%;
+}
 }
