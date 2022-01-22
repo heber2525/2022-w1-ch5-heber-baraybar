@@ -10,8 +10,20 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: #15FFBC;
+}
+
+h1 {
+  display: none;
+}
+
+.video {
+  display: none;
+}
+
+.menu__desktop {
+  display: none;
 }
 
 .header {
@@ -30,6 +42,7 @@ body {
 
 .menu__home {
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .pictures__body {
@@ -62,6 +75,7 @@ body {
 footer {
   background-color: black;
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 .footer__social-media img {
@@ -89,6 +103,83 @@ footer {
 .nav__footer a {
   text-decoration: none;
   color: white;
+}
+
+.footer__text {
+  margin-top: 1rem;
+}
+.footer__text h2 {
+  color: white;
+  font-size: 1.2rem;
+  margin: 20px;
+}
+.footer__text p {
+  color: #15FFBC;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+@media (min-width: 600px) {
+  .header__menu {
+    display: none;
+  }
+
+  .header__desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__desk div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__desk div li {
+    margin: 20px;
+  }
+  .header__desk li {
+    list-style: none;
+  }
+  .header__desk li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .--pictures__body-pink-car {
+    display: none;
+  }
+
+  .video {
+    display: block;
+    width: 100%;
+  }
+
+  .--pictures__body--text {
+    width: 20%;
+    margin: 1.5rem auto;
+  }
+
+  .pictures__package {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav__footer {
+    display: none;
+  }
+
+  .package__footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer__social-media img:hover {
+    background-color: pink;
+    cursor: pointer;
+  }
+
+  .cross__world {
+    text-decoration: line-through;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
