@@ -171,3 +171,14 @@ footer{
 .pictures__mobile img{
     width: 100%;
 }
+
+@media(min-width: 600px){
+    .header__menu-desktop{
+        display: flex;
+    }
+    .pictures-wrap{
+       display: inline-block;
+
+    }
+  
+}
