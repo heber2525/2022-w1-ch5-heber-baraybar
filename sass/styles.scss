@@ -19,6 +19,9 @@ body{
 h1{
     display: none;
 }
+.video{
+    display: none;
+}
 .menu__desktop{
     display: none;
 }
@@ -62,6 +65,7 @@ h1{
 footer{
     background-color: black;
     text-align: center;
+    padding-bottom: 2rem;
 }
 .footer__social-media img{
     width: 2rem;
@@ -104,8 +108,8 @@ footer{
     }
     .header__desk{
         display: flex;
+        justify-content: center;
         align-items: center;
-        justify-content: space-evenly;
         div{
             display: flex;
             justify-content: space-between;
@@ -121,4 +125,39 @@ footer{
              }
         }
     }
+    .--pictures__body-pink-car{
+        display: none;
+    }
+    .video{
+        display: block;
+        width: 100%;
+    }
+    .pictures__package{
+        
+    }
+    .--pictures__body--text{
+        width: 20%;
+        margin: 1.5rem auto;
+    }
+    .pictures__package{
+        display: flex;
+        justify-content: center;
+    }
+   .nav__footer{
+       display: none;
+   }
+   .package__footer{
+       display: flex;
+       justify-content: space-around; 
+   }
+   .footer__social-media{
+       img:hover{
+           background-color:pink ;
+           cursor: pointer;
+       }
+   }
+   .cross__world{
+       text-decoration: line-through;
+   }   
+   
 }
