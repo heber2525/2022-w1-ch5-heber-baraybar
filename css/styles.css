@@ -42,6 +42,10 @@ h1 {
   color: black;
 }
 
+.menu__home:hover {
+  color: pink;
+}
+
 .pictures__body {
   margin-top: 50px;
 }
@@ -91,15 +95,11 @@ footer {
 
 .nav__footer {
   margin-top: 30px;
+  color: white;
 }
 
 .nav__footer li {
   margin: 0.5rem;
-}
-
-.nav__footer a {
-  text-decoration: none;
-  color: white;
 }
 
 .footer__text {
@@ -114,6 +114,19 @@ footer {
   color: #15FFBC;
   margin-top: 5px;
   font-size: 1rem;
+}
+
+.--desk-menu-hover:hover {
+  color: pink;
+}
+
+.cross-text-title {
+  text-decoration: line-through pink;
+}
+
+.--home-pink {
+  text-decoration: line-through;
+  color: pink;
 }
 
 @media (min-width: 600px) {
