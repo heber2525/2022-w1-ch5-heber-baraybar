@@ -200,21 +200,24 @@ footer{
     }
     .picture__about{
         display: block;
-        img{
+        /* img{
         width: 100%;
         height: 200px;
-        }
+        } */
+        background-image: url("../images/about.jpg");
+       height: 300px;
     }
     .text-one{
         margin-top: 50px;
-        word-spacing: 10px;
+        word-spacing: .5rem;
     }
     .text--two{
         display: flex;
         justify-content: center;
-        align-items: center;
-        p{
-            width: 50%;
+        div{
+            margin: 20px;
+          
         }
     }
+   
 }

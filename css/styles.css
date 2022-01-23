@@ -219,24 +219,25 @@ footer {
 
   .picture__about {
     display: block;
-  }
-  .picture__about img {
+    /* img{
     width: 100%;
     height: 200px;
+    } */
+    background-image: url("../images/about.jpg");
+    height: 300px;
   }
 
   .text-one {
     margin-top: 50px;
-    word-spacing: 10px;
+    word-spacing: 0.5rem;
   }
 
   .text--two {
     display: flex;
     justify-content: center;
-    align-items: center;
   }
-  .text--two p {
-    width: 50%;
+  .text--two div {
+    margin: 20px;
   }
 }
 
