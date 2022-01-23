@@ -16,27 +16,28 @@
 <body>
     <h1>Helo</h1>
     <header class="header">
-        <nav>
+        <nav class="header__mobile">
             <ul class="header__menu --header-menu-list">
-                <li class="menu__burger"><img src="menu_burger.png" alt="burger"><a href="#nav-footer"></a></li>
-                <li><a href=""><img src="https://github.com/isdi-coders-2022/bootcamp-202201-mad/blob/main/week1/challenges/challenge-weekend/logo.png?raw=true" alt="logo"></a></li>
-                <li><a class= "menu__home"  href="#">Home</a></li>
+                <li><a href="#footer"><img src="menu_burger.png" alt="burger"></a></li>
+                <li><a href=""><img src="./images/logo.png" alt="logo"></a></li>
+                <li><a class="menu__home" href="index.html">Home</a></li>
             </ul>
         </nav>
-        <nav>
+        <nav class="header__desktop">
             <ul class="header__desk --header__desk--menu">
-                <div    >
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Works</a></li>
-                </div>
-                <li><img src="https://github.com/isdi-coders-2022/bootcamp-202201-mad/blob/main/week1/challenges/challenge-weekend/logo.png?raw=true" alt="logo"></li>
                 <div>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a class="--desk-menu-hover" href="index.html">Home</a></li>
+                    <li><a class="--desk-menu-hover" href="works.html">Works</a></li>
+                </div>
+                <li>
+                    <img src="images/logo.png" alt="logo">
+                </li>
+                <div>
+                    <li><a class="--desk-menu-hover" href="about.html">About</a></li>
+                    <li><a class="--desk-menu-hover" href="#footer">Contacts</a></li>
                 </div>
             </ul>
         </nav>
-      
     </header>
     <main>
         <img class="pictures__body --pictures__body-pink-car" src="https://github.com/isdi-coders-2022/bootcamp-202201-mad/blob/main/week1/challenges/challenge-weekend/images/work/media/media03.jpg?raw=true" alt="">
@@ -51,20 +52,20 @@
             </div>
         <div class="pictures__package">
             <div class="pictures__main text-and-pic">
-                <img class="pictures__body" src= "https://github.com/isdi-coders-2022/bootcamp-202201-mad/blob/main/week1/challenges/challenge-weekend/images/work/media/media04.jpg?raw=true" alt="">
+                <img class="pictures__body" src= "./images/media07.jpg" alt="">
                 <h2>Lorem ipsum dolor sit amet.</h2>
             </div>
             <div class="pictures__main text-and-pic">
-                <img class="pictures__body " src="https://github.com/isdi-coders-2022/bootcamp-202201-mad/blob/main/week1/challenges/challenge-weekend/images/work/media/media05.jpg?raw=true" alt="">
+                <img class="pictures__body " src="./images/media9.jpg" alt="">
                 <h2>lorem5</h2>
             </div>
             <div class="pictures__main text-and-pic">
-                <img class="pictures__body" src="https://github.com/isdi-coders-2022/bootcamp-202201-mad/blob/main/week1/challenges/challenge-weekend/images/work/media/media06.jpg?raw=true" alt="">
+                <img class="pictures__body" src="./images/media10.jpg" alt="">
                 <h2>Lorem, ipsum.</h2>
             </div>
         </div>
     </main>
-    <footer class="footer">
+    <footer class=".footer" id="footer">
     
         <div class="footer__texto --footer-first-text">
             <h2 class="footer__texto --footer-first-text">Lorem ipsum dolor</h2>

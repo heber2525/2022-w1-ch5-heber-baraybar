@@ -34,10 +34,14 @@ h1{
     justify-content: space-between;
     list-style: none;
 }
+
 .menu__home{
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
+}
+.menu__home:hover{
+    color: pink;
 }
 .pictures__body{
     @extend %body-pictures;
@@ -79,14 +83,15 @@ footer{
 }
 .nav__footer{
     margin-top: 30px;
+    color: white;
 }
 .nav__footer li{
     margin: 0.5rem;
 }
-.nav__footer a{
-    text-decoration: none;
-    color: white;
-}
+// .nav__footer a{
+//     text-decoration: none;
+//     color: white;
+// }
 .footer__text{
     margin-top: 1rem;
    h2{
@@ -99,6 +104,16 @@ footer{
        margin-top: 5px;
        font-size: 1rem;
    }
+}
+.--desk-menu-hover:hover{
+    color: pink;
+}
+.cross-text-title{
+    text-decoration: line-through pink;
+}
+.--home-pink{
+    text-decoration: line-through;
+    color: pink;
 }
 @media(min-width: 600px){
     
