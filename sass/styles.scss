@@ -164,6 +164,7 @@ footer{
    .footer__social-media{
        img:hover{
            background-color:pink ;
+           border-radius: 50%;
            cursor: pointer;
        }
    }
@@ -179,18 +180,31 @@ footer{
     display: none;
 }
 
-.pictures__mobile img{
-    width: 100%;
+@for $i from 8 through 34 {
+  .image-grid#{$i} {
+    background-image: url("../images/media#{$i}.jpg");
+    background-size: contain;
+    
+    
+  }
 }
-
+.grid-container{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+}
 @media(min-width: 600px){
     .header__menu-desktop{
         display: flex;
     }
-    .pictures-wrap{
-       display: inline-block;
+.pictures__mobile{
+    display: flex;
+    align-items: center;
 
+    img{
+        width: 33%;
     }
+}
   
 }
 // *******************From here about html*********************//
