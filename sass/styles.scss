@@ -179,20 +179,37 @@ footer{
 .header__menu-desktop{
     display: none;
 }
-
-@for $i from 8 through 34 {
-  .image-grid#{$i} {
-    background-image: url("../images/media#{$i}.jpg");
-    background-size: contain;
-    
-    
-  }
-}
 .grid-container{
     display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 300px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 30vw;
 }
+@for $i from 1 through 30 {
+  .image-grid#{$i} {
+    background-image: url("../jesus/media#{$i}.jpg");
+    background-size: contain;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .--hover-grid:hover{
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all .5s;
+
+}
+  }
+} 
+
+.--hover-grid:hover{
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all .5s;
+  
+
+}
+
+
 @media(min-width: 600px){
     .header__menu-desktop{
         display: flex;
@@ -205,7 +222,18 @@ footer{
         width: 33%;
     }
 }
-  
+    .grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 30vw;
+}
+@for $i from 1 through 30 {
+  .image-grid#{$i} {
+    background-image: url("../jesus/media#{$i}.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+}
 }
 // *******************From here about html*********************//
 .text{

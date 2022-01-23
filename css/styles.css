@@ -196,145 +196,436 @@ footer {
   display: none;
 }
 
-.image-grid8 {
-  background-image: url("../images/media8.jpg");
-  background-size: contain;
-}
-
-.image-grid9 {
-  background-image: url("../images/media9.jpg");
-  background-size: contain;
-}
-
-.image-grid10 {
-  background-image: url("../images/media10.jpg");
-  background-size: contain;
-}
-
-.image-grid11 {
-  background-image: url("../images/media11.jpg");
-  background-size: contain;
-}
-
-.image-grid12 {
-  background-image: url("../images/media12.jpg");
-  background-size: contain;
-}
-
-.image-grid13 {
-  background-image: url("../images/media13.jpg");
-  background-size: contain;
-}
-
-.image-grid14 {
-  background-image: url("../images/media14.jpg");
-  background-size: contain;
-}
-
-.image-grid15 {
-  background-image: url("../images/media15.jpg");
-  background-size: contain;
-}
-
-.image-grid16 {
-  background-image: url("../images/media16.jpg");
-  background-size: contain;
-}
-
-.image-grid17 {
-  background-image: url("../images/media17.jpg");
-  background-size: contain;
-}
-
-.image-grid18 {
-  background-image: url("../images/media18.jpg");
-  background-size: contain;
-}
-
-.image-grid19 {
-  background-image: url("../images/media19.jpg");
-  background-size: contain;
-}
-
-.image-grid20 {
-  background-image: url("../images/media20.jpg");
-  background-size: contain;
-}
-
-.image-grid21 {
-  background-image: url("../images/media21.jpg");
-  background-size: contain;
-}
-
-.image-grid22 {
-  background-image: url("../images/media22.jpg");
-  background-size: contain;
-}
-
-.image-grid23 {
-  background-image: url("../images/media23.jpg");
-  background-size: contain;
-}
-
-.image-grid24 {
-  background-image: url("../images/media24.jpg");
-  background-size: contain;
-}
-
-.image-grid25 {
-  background-image: url("../images/media25.jpg");
-  background-size: contain;
-}
-
-.image-grid26 {
-  background-image: url("../images/media26.jpg");
-  background-size: contain;
-}
-
-.image-grid27 {
-  background-image: url("../images/media27.jpg");
-  background-size: contain;
-}
-
-.image-grid28 {
-  background-image: url("../images/media28.jpg");
-  background-size: contain;
-}
-
-.image-grid29 {
-  background-image: url("../images/media29.jpg");
-  background-size: contain;
-}
-
-.image-grid30 {
-  background-image: url("../images/media30.jpg");
-  background-size: contain;
-}
-
-.image-grid31 {
-  background-image: url("../images/media31.jpg");
-  background-size: contain;
-}
-
-.image-grid32 {
-  background-image: url("../images/media32.jpg");
-  background-size: contain;
-}
-
-.image-grid33 {
-  background-image: url("../images/media33.jpg");
-  background-size: contain;
-}
-
-.image-grid34 {
-  background-image: url("../images/media34.jpg");
-  background-size: contain;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 300px;
+  grid-auto-rows: 30vw;
+}
+
+.image-grid1 {
+  background-image: url("../jesus/media1.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid1 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid2 {
+  background-image: url("../jesus/media2.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid2 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid3 {
+  background-image: url("../jesus/media3.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid3 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid4 {
+  background-image: url("../jesus/media4.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid4 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid5 {
+  background-image: url("../jesus/media5.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid5 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid6 {
+  background-image: url("../jesus/media6.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid6 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid7 {
+  background-image: url("../jesus/media7.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid7 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid8 {
+  background-image: url("../jesus/media8.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid8 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid9 {
+  background-image: url("../jesus/media9.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid9 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid10 {
+  background-image: url("../jesus/media10.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid10 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid11 {
+  background-image: url("../jesus/media11.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid11 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid12 {
+  background-image: url("../jesus/media12.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid12 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid13 {
+  background-image: url("../jesus/media13.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid13 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid14 {
+  background-image: url("../jesus/media14.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid14 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid15 {
+  background-image: url("../jesus/media15.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid15 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid16 {
+  background-image: url("../jesus/media16.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid16 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid17 {
+  background-image: url("../jesus/media17.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid17 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid18 {
+  background-image: url("../jesus/media18.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid18 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid19 {
+  background-image: url("../jesus/media19.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid19 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid20 {
+  background-image: url("../jesus/media20.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid20 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid21 {
+  background-image: url("../jesus/media21.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid21 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid22 {
+  background-image: url("../jesus/media22.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid22 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid23 {
+  background-image: url("../jesus/media23.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid23 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid24 {
+  background-image: url("../jesus/media24.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid24 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid25 {
+  background-image: url("../jesus/media25.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid25 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid26 {
+  background-image: url("../jesus/media26.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid26 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid27 {
+  background-image: url("../jesus/media27.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid27 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid28 {
+  background-image: url("../jesus/media28.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid28 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid29 {
+  background-image: url("../jesus/media29.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid29 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.image-grid30 {
+  background-image: url("../jesus/media30.jpg");
+  background-size: contain;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-grid30 .--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.--hover-grid:hover {
+  opacity: 90%;
+  transform: scale(1.02);
+  transition: all 0.5s;
 }
 
 @media (min-width: 600px) {
@@ -348,6 +639,192 @@ footer {
   }
   .pictures__mobile img {
     width: 33%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 30vw;
+  }
+
+  .image-grid1 {
+    background-image: url("../jesus/media1.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid2 {
+    background-image: url("../jesus/media2.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid3 {
+    background-image: url("../jesus/media3.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid4 {
+    background-image: url("../jesus/media4.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid5 {
+    background-image: url("../jesus/media5.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid6 {
+    background-image: url("../jesus/media6.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid7 {
+    background-image: url("../jesus/media7.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid8 {
+    background-image: url("../jesus/media8.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid9 {
+    background-image: url("../jesus/media9.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid10 {
+    background-image: url("../jesus/media10.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid11 {
+    background-image: url("../jesus/media11.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid12 {
+    background-image: url("../jesus/media12.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid13 {
+    background-image: url("../jesus/media13.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid14 {
+    background-image: url("../jesus/media14.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid15 {
+    background-image: url("../jesus/media15.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid16 {
+    background-image: url("../jesus/media16.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid17 {
+    background-image: url("../jesus/media17.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid18 {
+    background-image: url("../jesus/media18.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid19 {
+    background-image: url("../jesus/media19.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid20 {
+    background-image: url("../jesus/media20.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid21 {
+    background-image: url("../jesus/media21.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid22 {
+    background-image: url("../jesus/media22.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid23 {
+    background-image: url("../jesus/media23.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid24 {
+    background-image: url("../jesus/media24.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid25 {
+    background-image: url("../jesus/media25.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid26 {
+    background-image: url("../jesus/media26.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid27 {
+    background-image: url("../jesus/media27.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid28 {
+    background-image: url("../jesus/media28.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid29 {
+    background-image: url("../jesus/media29.jpg");
+    background-size: contain;
+    background-size: cover;
+  }
+
+  .image-grid30 {
+    background-image: url("../jesus/media30.jpg");
+    background-size: contain;
+    background-size: cover;
   }
 }
 .text {
