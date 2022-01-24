@@ -921,6 +921,7 @@ footer {
   }
 
   .--hover-grid:hover {
+    filter: opacity(50%);
     transform: scale(1.1);
     transition: 0.7s;
   }
